@@ -1,0 +1,19 @@
+
+.span{
+    
+    font-size: 20px;
+    
+}
+
+.div{
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex;
+    padding: 10px 20px;
+    margin: 3%;
+    
+    border-radius: 20% / 100%; /* Elips şeklinde köşeler */
+    }
+.div:hover{
+    background-color: rgba(15, 20, 25, 0.1);
+    
+}
