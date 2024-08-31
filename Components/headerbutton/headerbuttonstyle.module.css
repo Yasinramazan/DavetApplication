@@ -1,16 +1,17 @@
 
 .span{
-    
     font-size: 20px;
-    
+    margin-left: 20px;
 }
 
 .div{
-    transition: transform 0.2s, background-color 0.2s;
-    display: flex;
-    padding: 10px 20px;
-    margin: 3%;
     
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex; /* İçeriği yatayda hizalar */
+    align-items: center;
+    padding: 15px;
+    margin:10px;
+    justify-content:left;
     border-radius: 20% / 100%; /* Elips şeklinde köşeler */
     }
 .div:hover{

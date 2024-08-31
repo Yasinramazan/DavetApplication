@@ -1,0 +1,27 @@
+.a {
+    width: 100%;
+    /* Butonun genişliği tüm divi kaplar */
+    height: 56px;
+    display: inline-block;
+    padding-top: 15px;
+    /* Butonun iç boşluğu */
+    background-color: rgb(29, 155, 240);
+    /* Butonun arka plan rengi */
+    color: white;
+    /* Yazı rengi */
+    border-radius: 50px;
+    /* Oval köşeler için yüksek değer */
+    text-align: center;
+    font-weight: bold;
+    /* Metni ortalar */
+    text-decoration: none;
+    /* Alt çizgi yok */
+    font-size: 16px;
+    /* Yazı büyüklüğü */
+    transition: background-color 0.3s;
+}
+
+.div{
+    height: 12px;
+    width:100%;
+}

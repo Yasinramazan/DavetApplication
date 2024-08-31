@@ -1,25 +1,34 @@
-
-.mainDiv{
-  display: flex;
-  flex-wrap: wrap; /* Satır boyunca taşan div'ler bir alt satıra geçer */
-  width: 100vw; /* Ebeveyn elemanının genişliği */
-  height: 100vh; /* Ebeveyn elemanının yüksekliği */ 
+.mainDiv {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  height: 100vh;
 }
-
-.flexDiv{
-  
+.sidebar {
   height: 100%;
-  flex: 1; /* Her div'in eşit genişlikte olmasını sağlar */
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 20px;
   text-align: center;
-  box-sizing: border-box;
+  grid-column: 3 / span 2;
 }
 
-.leftDiv{
-  padding-top: 4%;
-  padding-left: 60%;
+.flowdiv{
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  grid-column: 5 / span 4;
+}
+
+.rightsidebar{
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  grid-column: 9 / span 2;
+  
+}
+
+.buttondiv {
+  height: 50px;
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+
 }

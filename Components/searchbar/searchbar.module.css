@@ -1,0 +1,30 @@
+.input {
+
+    background-color: #EFF3F4;
+    /* Tam oval görünüm için yüksek değer */
+    padding: 10px 20px;
+    /* İç boşluk */
+    border-width: 0;
+    text-align: start;
+    outline: none; 
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    /* Yatayda ortalama */
+    align-items: center;
+    width: 15vw;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #EFF3F4;
+    
+    position: relative;
+}
+
+.input input:focus {
+    border: none; /* Focus durumunda border'ı kaldırır */
+    box-shadow: none; /* Box-shadow varsa onu da kaldırır */
+}
