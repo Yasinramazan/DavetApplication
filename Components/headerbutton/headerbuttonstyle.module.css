@@ -11,7 +11,7 @@
     align-items: center;
     padding: 15px;
     margin:10px;
-    justify-content:left;
+    justify-content:space-between;
     border-radius: 20% / 100%; /* Elips şeklinde köşeler */
     }
 .div:hover{
