@@ -5,6 +5,9 @@ import SearchBar from "../../Components/searchbar/searchbar";
 import { GoFoldUp } from "react-icons/go";
 import PostButton from "../../Components/postbutton/postbutton"
 import { text } from "stream/consumers";
+import PremiumCard from "../../Components/premiumcard/premiumcard";
+import LiveonXCard from "../../Components/liveonXcard/liveonXcard";
+import DiscoverCard from "../../Components/discovercard/discovercard";
 
 
 export default function Home() {
@@ -30,6 +33,9 @@ export default function Home() {
       <div className={styles.flowdiv}>b</div>
       <div className={styles.rightsidebar}>
         <SearchBar/>
+        <PremiumCard/>
+        <LiveonXCard/>
+        <DiscoverCard/>
       </div>
     </div>
   );

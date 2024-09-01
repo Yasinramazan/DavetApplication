@@ -1,0 +1,38 @@
+
+
+.div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #EFF3F4;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    height: 144px;
+    justify-content: space-between;
+}
+
+.h2{
+    font-size: 20px;
+}
+
+.p{
+    font-size: 15px;
+    text-align: left;
+}
+
+.button{
+    display: flex;
+    height: 36px;
+    width: 100px;
+    font-size: 15px;
+    background-color: #272C30;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center; 
+}

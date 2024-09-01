@@ -1,28 +1,31 @@
 .mainDiv {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(20, 1fr);
+ 
   height: 100vh;
 }
 .sidebar {
   height: 100%;
   padding: 20px;
   text-align: center;
-  grid-column: 3 / span 2;
+  grid-column: 4 / span 3;
 }
 
 .flowdiv{
   height: 100%;
   padding: 20px;
   text-align: center;
-  grid-column: 5 / span 4;
+  grid-column: 7 / span 4;
 }
 
 .rightsidebar{
+  display: flex;
+  flex-direction: column;
+  
   height: 100%;
   padding: 20px;
   text-align: center;
-  grid-column: 9 / span 2;
+  grid-column: 14 / span 4;
   
 }
 
