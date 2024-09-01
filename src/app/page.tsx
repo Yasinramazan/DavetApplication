@@ -10,9 +10,10 @@ import LiveonXCard from "../../Components/liveonXcard/liveonXcard";
 import DiscoverCard from "../../Components/discovercard/discovercard";
 
 
+
 export default function Home() {
 
-  let text = "deneme";
+  
   return (
     <div className={styles.mainDiv}>
       <div className={styles.sidebar}>

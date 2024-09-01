@@ -6,7 +6,7 @@
 
 .div{
     
-    transition: transform 0.2s, background-color 0.2s;
+    transition: 0.2s ease, background-color 0.2s;
     display: flex; /* İçeriği yatayda hizalar */
     align-items: center;
     padding: 15px;

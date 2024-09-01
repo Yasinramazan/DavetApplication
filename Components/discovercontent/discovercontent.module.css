@@ -1,0 +1,38 @@
+.newsdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+
+.newsdiv:hover{
+    
+    background-color: #F7F7F7;
+}
+
+.label{
+    font-size: 13px;
+    color: #798690;
+}
+
+.roundbutton{
+    
+    
+    border: none;
+    border-radius: 50%;
+    font-weight:1000;
+    color: rgb(83, 100, 113);
+    background-color: transparent;
+}
+
+.roundbutton:hover{
+    color:#1D9BF0;
+    background-color: #E1EEF6;
+}
+
+.h3{
+    font-size: 15px;
+    font-weight: bold;
+}

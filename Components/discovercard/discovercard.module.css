@@ -1,18 +1,28 @@
-
-
-.outerdiv{
+.outerdiv {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
     border: 2px solid;
     border-color: #EFF3F4;
     background-color: #fff;
-    transition: transform 0.3s ease;
-    height: 144px;
+    
+    
 }
 
-.h2{
+.h2 {
+    padding: 10px;
     font-size: 20px;
+}
+
+.outernewsdiv {
+    width: 100%;
+}
+
+.topdiv {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
