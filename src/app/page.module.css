@@ -21,7 +21,7 @@
 .rightsidebar{
   display: flex;
   flex-direction: column;
-  
+  gap: 15px;
   height: 100%;
   padding: 20px;
   text-align: center;
