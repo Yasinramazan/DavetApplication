@@ -8,6 +8,8 @@ import { text } from "stream/consumers";
 import PremiumCard from "../../Components/premiumcard/premiumcard";
 import LiveonXCard from "../../Components/liveonXcard/liveonXcard";
 import DiscoverCard from "../../Components/discovercard/discovercard";
+import TopNavigationBar from "../../Components/topnavigationbar/topnavigationbar";
+import TweetCard from "../../Components/Tweet/tweetcard";
 
 
 
@@ -31,7 +33,13 @@ export default function Home() {
             <HeaderButton text="Daha Fazla"></HeaderButton>
             <PostButton/>
       </div>
-      <div className={styles.flowdiv}>b</div>
+      <div className={styles.flowdiv}>
+        <div className={styles.middle_outer_div}>
+        <TopNavigationBar/>
+        <TweetCard/>
+        </div>
+        
+      </div>
       <div className={styles.rightsidebar}>
         <SearchBar/>
         <PremiumCard/>
