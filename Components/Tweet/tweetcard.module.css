@@ -1,0 +1,107 @@
+
+
+.hover_div{
+    display: flex;
+    border-top: 1px solid ; 
+    border-bottom: 1px solid;  
+    border-color: #EFF3F4;
+}
+
+.outer_div{
+    display: flex;
+    margin: 10px 20px;
+}
+
+.hover_div:hover{
+    background-color: #F7F7F7;
+}
+
+.p{
+    color:#515558;
+    font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif solid;
+}
+
+.pp_div{
+
+}
+
+.profile_div{
+    
+    display: flex;
+}
+
+.nick_label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.username_label{
+    padding-left: 5px;
+    color: #536471;
+    font-size: 15px;
+}
+
+.tweet_div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inline_tweet_div{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.pp_image{ 
+    color:green;
+    height: 100%;
+    width: 100%;
+}
+
+.pp_button{
+    border-radius: 50%;
+    border-color: transparent;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.paragraph{
+    display: flex;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.icon_list_div{
+    height: 34.75px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon_div{
+    display: flex;
+    border-radius: 50%;
+    height: 34.75px;
+    transition: border-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+
+
+.righticons_div{
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    overflow: visible;
+}
+
+.icon:hover{
+    border-color: rgb(29, 155, 240);
+    box-shadow: 0 0 10px 2px rgb(29, 155, 240);
+}

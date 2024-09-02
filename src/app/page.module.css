@@ -15,7 +15,7 @@
   height: 100%;
   padding: 20px;
   text-align: center;
-  grid-column: 7 / span 4;
+  grid-column: 7 / span 7;
 }
 
 .rightsidebar{
@@ -34,4 +34,12 @@
   margin-top: 10px;
   display: flex;
 
+}
+
+.middle_outer_div{
+  
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-color: #EFF3F4;
 }
