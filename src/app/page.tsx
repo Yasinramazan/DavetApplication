@@ -226,6 +226,221 @@ const tweets: Tweet[] = [
   },
 
 ];
+interface Tweet {
+  usernick: string;
+  username: string;
+  createdTime: string;
+  content: string;
+  commentsCount: string;
+  rtTweetsCount: string;
+  favCount: string;
+  viewsCount: string;
+}
+
+
+const tweets: Tweet[] = [
+  {
+    usernick: "@john_doe",
+    username: "John Doe",
+    createdTime: "2024-09-01T12:34:56",
+    content: "Just finished a 10K run! Feeling great. #fitness #healthylifestyle",
+    commentsCount: "15",
+    rtTweetsCount: "10",
+    favCount: "100",
+    viewsCount: "1000",
+  },
+  {
+    usernick: "@jane_smith",
+    username: "Jane Smith",
+    createdTime: "2024-09-01T09:20:30",
+    content: "Excited for the new product launch tomorrow! Stay tuned. #innovation",
+    commentsCount: "25",
+    rtTweetsCount: "30",
+    favCount: "250",
+    viewsCount: "3000",
+  },
+  {
+    usernick: "@tech_guru",
+    username: "Tech Guru",
+    createdTime: "2024-09-02T14:15:00",
+    content: "The future of AI is bright. What do you think? #AI #tech",
+    commentsCount: "35",
+    rtTweetsCount: "50",
+    favCount: "500",
+    viewsCount: "7000",
+  },
+  {
+    usernick: "@foodie_lover",
+    username: "Foodie Lover",
+    createdTime: "2024-09-01T18:00:45",
+    content: "Just tried the best pizza in town! #foodie #pizza",
+    commentsCount: "20",
+    rtTweetsCount: "40",
+    favCount: "300",
+    viewsCount: "4000",
+  },
+  {
+    usernick: "@adventure_jane",
+    username: "Jane Adventure",
+    createdTime: "2024-09-02T11:15:00",
+    content: "Exploring the hidden gems of the city, finding new places, and meeting amazing people along the way. Life is truly an adventure every day.",
+    commentsCount: "30",
+    rtTweetsCount: "40",
+    favCount: "200",
+    viewsCount: "3000",
+  },
+  {
+    usernick: "@traveler_world",
+    username: "Traveler World",
+    createdTime: "2024-09-02T08:30:10",
+    content: "Exploring the beautiful beaches of Bali. #travel #paradise",
+    commentsCount: "45",
+    rtTweetsCount: "60",
+    favCount: "700",
+    viewsCount: "8000",
+  },
+  {
+    usernick: "@gamer123",
+    username: "Gamer123",
+    createdTime: "2024-09-02T20:50:25",
+    content: "Can't wait for the new game release tonight! #gaming #hyped",
+    commentsCount: "50",
+    rtTweetsCount: "70",
+    favCount: "900",
+    viewsCount: "10000",
+  },
+  {
+    usernick: "@movie_buff",
+    username: "Movie Buff",
+    createdTime: "2024-09-01T22:45:15",
+    content: "Just watched the latest blockbuster! What a movie! #cinema",
+    commentsCount: "30",
+    rtTweetsCount: "45",
+    favCount: "400",
+    viewsCount: "6000",
+  },
+  {
+    usernick: "@nature_lover",
+    username: "Nature Lover",
+    createdTime: "2024-09-02T05:20:00",
+    content: "Sunrise at the mountains is always breathtaking. #nature #peace",
+    commentsCount: "15",
+    rtTweetsCount: "20",
+    favCount: "250",
+    viewsCount: "3500",
+  },
+  {
+    usernick: "@music_fanatic",
+    username: "Music Fanatic",
+    createdTime: "2024-09-02T12:00:05",
+    content: "Listening to the new album on repeat. It's so good! #music #newrelease",
+    commentsCount: "60",
+    rtTweetsCount: "80",
+    favCount: "1100",
+    viewsCount: "12000",
+  },
+  {
+    usernick: "@bookworm",
+    username: "Bookworm",
+    createdTime: "2024-09-01T15:30:45",
+    content: "Just finished reading a fantastic book! #books #reading",
+    commentsCount: "10",
+    rtTweetsCount: "15",
+    favCount: "150",
+    viewsCount: "2000",
+  },
+  {
+    usernick: "@nature_lover",
+    username: "Nature Lover",
+    createdTime: "2024-09-02T05:20:00",
+    content: "Sunrise at the mountains is always breathtaking. #nature #peace",
+    commentsCount: "15",
+    rtTweetsCount: "20",
+    favCount: "250",
+    viewsCount: "3500",
+  },
+  {
+    usernick: "@music_fanatic",
+    username: "Music Fanatic",
+    createdTime: "2024-09-02T12:00:05",
+    content: "Listening to the new album on repeat. It's so good! #music #newrelease",
+    commentsCount: "60",
+    rtTweetsCount: "80",
+    favCount: "1100",
+    viewsCount: "12000",
+  },
+  {
+    usernick: "@bookworm",
+    username: "Bookworm",
+    createdTime: "2024-09-01T15:30:45",
+    content: "Just finished reading a fantastic book! #books #reading",
+    commentsCount: "10",
+    rtTweetsCount: "15",
+    favCount: "150",
+    viewsCount: "2000",
+  },
+  {
+    usernick: "@nature_lover",
+    username: "Nature Lover",
+    createdTime: "2024-09-02T05:20:00",
+    content: "Sunrise at the mountains is always breathtaking. #nature #peace",
+    commentsCount: "15",
+    rtTweetsCount: "20",
+    favCount: "250",
+    viewsCount: "3500",
+  },
+  {
+    usernick: "@music_fanatic",
+    username: "Music Fanatic",
+    createdTime: "2024-09-02T12:00:05",
+    content: "Listening to the new album on repeat. It's so good! #music #newrelease",
+    commentsCount: "60",
+    rtTweetsCount: "80",
+    favCount: "1100",
+    viewsCount: "12000",
+  },
+  {
+    usernick: "@bookworm",
+    username: "Bookworm",
+    createdTime: "2024-09-01T15:30:45",
+    content: "Just finished reading a fantastic book! #books #reading",
+    commentsCount: "10",
+    rtTweetsCount: "15",
+    favCount: "150",
+    viewsCount: "2000",
+  },
+  {
+    usernick: "@nature_lover",
+    username: "Nature Lover",
+    createdTime: "2024-09-02T05:20:00",
+    content: "Sunrise at the mountains is always breathtaking. #nature #peace",
+    commentsCount: "15",
+    rtTweetsCount: "20",
+    favCount: "250",
+    viewsCount: "3500",
+  },
+  {
+    usernick: "@music_fanatic",
+    username: "Music Fanatic",
+    createdTime: "2024-09-02T12:00:05",
+    content: "Listening to the new album on repeat. It's so good! #music #newrelease",
+    commentsCount: "60",
+    rtTweetsCount: "80",
+    favCount: "1100",
+    viewsCount: "12000",
+  },
+  {
+    usernick: "@bookworm",
+    username: "Bookworm",
+    createdTime: "2024-09-01T15:30:45",
+    content: "Just finished reading a fantastic book! #books #reading",
+    commentsCount: "10",
+    rtTweetsCount: "15",
+    favCount: "150",
+    viewsCount: "2000",
+  },
+
+];
 
 export default function Home() {
 
@@ -274,6 +489,7 @@ return (
 
 
       </div>
+
 
     </div>
   );
