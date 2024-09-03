@@ -8,7 +8,18 @@ import { BsSave2 } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
 
 
-export default function TweetCard() {
+interface Tweet{
+    usernick:string;
+    username:string;
+    createdTime:string;
+    content:string;
+    commentsCount:string;
+    rtTweetsCount:string;
+    favCount:string;
+    viewsCount:string;
+}
+
+const TweetCard : React.FC<Tweet> = ({usernick,username,createdTime,content,commentsCount,rtTweetsCount,favCount,viewsCount})=> {
     return (
         <div className={styles.hover_div}>
             <div className={styles.outer_div}>
@@ -20,21 +31,42 @@ export default function TweetCard() {
                 <div className={styles.tweet_div}>
                     <div className={styles.inline_tweet_div}>
                         <div className={styles.profile_div}>
-                            <label className={styles.nick_label}>William McKinley 🇭🇰</label>
-                            <label className={styles.username_label}>@mckinley_1776</label>
-                            <label className={styles.username_label}>· 1 sa</label>
+                            <label className={styles.nick_label}>{usernick}</label>
+                            <label className={styles.username_label}>{username}</label>
+                            <label className={styles.username_label}>· {createdTime} sa</label>
                         </div>
                         <div className={styles.paragraph}>
-                            <p className={styles.p}>Rusya Merkez Bankası bir sonraki toplantıda büyük ihtimalle faizleri yeniden artıracak. Ülkede iç talep çok güçlü.</p>
+                            <p className={styles.p}>{content}</p>
                         </div>
                         <div className={styles.icon_list_div}>
-                            <FaRegComment className={styles.icon} />
-                            <LuArrowDownUp />
-                            <VscHeart />
-                            <VscGraph />
+                            <div className={styles.icon_div}>
+                                <div className={styles.icon}>
+                                <FaRegComment  />
+                                </div>
+                                
+                                <p className={styles.icon_p}>{commentsCount}</p>
+                            </div>
+                            <div className={styles.icon_div}>
+                                <LuArrowDownUp className={styles.icon}/>
+                                <p className={styles.icon_p}>{rtTweetsCount}</p>
+                            </div>
+                            <div className={styles.icon_div}>
+                                <VscHeart className={styles.icon}/>
+                                <p className={styles.icon_p}>{favCount}</p>
+                            </div>
+                            <div className={styles.icon_div}>
+                                <VscGraph className={styles.icon}/>
+                                <p className={styles.icon_p}>{viewsCount}</p>
+                            </div>
                             <div className={styles.righticons_div}>
-                                <BsSave2 />
-                                <FaArrowUpFromBracket />
+                                <div>
+                                    <BsSave2 className={styles.icon}/>
+                                </div>
+                                <div>
+                                    <FaArrowUpFromBracket className={styles.icon}/>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -45,3 +77,5 @@ export default function TweetCard() {
 
     );
 }
+
+export default TweetCard;
