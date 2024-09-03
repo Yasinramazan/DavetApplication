@@ -19,9 +19,11 @@
     font-size: 16px;
     /* Yazı büyüklüğü */
     transition: background-color 0.3s;
+    
 }
 
 .div{
+    padding-right: 25px;
     height: 12px;
     width:100%;
 }
