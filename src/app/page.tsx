@@ -229,10 +229,11 @@ const tweets: Tweet[] = [
 
 export default function Home() {
 
-  return (
+  
+return (
     <div className={styles.mainDiv}>
       <div className={styles.back_div}>
-      <div className={styles.scrollable}>
+
         <div className={styles.sidebar}>
           <HeaderButton text="Anasayfa"></HeaderButton>
           <HeaderButton text="Keşfet"></HeaderButton>
@@ -248,6 +249,9 @@ export default function Home() {
           <HeaderButton text="Daha Fazla"></HeaderButton>
           <PostButton />
         </div>
+
+
+        <div className={styles.scrollable}>
           <div className={styles.flowdiv}>
             <div className={styles.middle_outer_div}>
               <TopNavigationBar />
