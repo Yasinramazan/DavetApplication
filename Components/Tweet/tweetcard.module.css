@@ -75,6 +75,8 @@
 }
 
 .paragraph{
+    gap: 10px;
+    flex-direction: column;
     display: flex;
     text-align: left;
     margin-top: 5px;

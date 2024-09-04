@@ -1,0 +1,11 @@
+.div {}
+
+.image {
+    border-radius: 15px;
+    flex: 1 1 calc(50% - 10px);
+    /* 3 resim için her birinin %33.333 genişliğinde olması */
+    max-width: calc(50% - 10px);
+    /* Resimlerin maksimum genişliği */
+    height: auto;
+    object-fit:contain;
+}
