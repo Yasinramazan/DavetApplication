@@ -6,6 +6,8 @@ import { LuArrowDownUp } from "react-icons/lu";
 import { FaRegComment } from "react-icons/fa6";
 import { BsSave2 } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
+import GetImage from "../image/image";
+import ImageGallery from "../imagegallery/imagegallery";
 
 
 interface Tweet{
@@ -17,9 +19,10 @@ interface Tweet{
     rtTweetsCount:string;
     favCount:string;
     viewsCount:string;
+    images: string[]
 }
 
-const TweetCard : React.FC<Tweet> = ({usernick,username,createdTime,content,commentsCount,rtTweetsCount,favCount,viewsCount})=> {
+const TweetCard : React.FC<Tweet> = ({usernick,username,createdTime,content,commentsCount,rtTweetsCount,favCount,viewsCount,images})=> {
     return (
         <div className={styles.hover_div}>
             <div className={styles.outer_div}>
@@ -36,7 +39,9 @@ const TweetCard : React.FC<Tweet> = ({usernick,username,createdTime,content,comm
                             <label className={styles.username_label}>· {createdTime} sa</label>
                         </div>
                         <div className={styles.paragraph}>
+                       
                             <p className={styles.p}>{content}</p>
+                            <ImageGallery images={images}/>
                         </div>
                         <div className={styles.icon_list_div}>
                             <div className={styles.icon_div}>

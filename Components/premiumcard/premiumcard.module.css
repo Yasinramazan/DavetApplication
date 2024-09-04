@@ -11,8 +11,9 @@
     border-color: #EFF3F4;
     background-color: #fff;
     transition: transform 0.3s ease;
-    height: 144px;
+    height: 162px;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .h2{

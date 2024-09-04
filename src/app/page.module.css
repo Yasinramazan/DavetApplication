@@ -25,11 +25,11 @@
   grid-column: 14 / span 20;
   gap: 30px;
   width: 100%;
- height: 100vh;
+  height: 100vh;
   overflow-x: hidden;
   background-color: white;
-  scrollbar-width: none; 
-  
+  scrollbar-width: none;
+
 }
 
 .flowdiv {
@@ -40,13 +40,13 @@
   border-bottom: 1px solid;
   border-color: #EFF3F4;
   text-align: center;
-  
+
 
 }
 
 .rightsidebar {
   position: sticky;
-  top:-200px;
+  top: -200px;
   display: flex;
   flex-direction: column;
   gap: 15px;
